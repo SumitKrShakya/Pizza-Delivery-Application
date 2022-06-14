@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: palegreen;
+    /* box-shadow: 5px 5px 5px rgb(0, 0, 0); */
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.leftpannel {}
+
+.restbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: palegoldenrod;
+}
+
+.restbody0 {
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(238, 170, 211);
+}
+
+.restbody1 {
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(219, 170, 238);
+}
+
+.restbody2 {
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(170, 195, 238);
+}
+
+.restbody3 {
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(255, 49, 49);
+}
+
+.logo {
+    padding: 10px;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex: 0.7;
+    /* border: 1px black solid; */
+}
+
+.login {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* border: 1px black solid; */
+}
+
+.navnames {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+    border: 1px black solid;
+}
+
+.navnames>div {
+    transition: all ease 0.2s;
+    cursor: pointer;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: larger;
+    color: brown;
+}
+
+.navnamesdivs:hover {
+    transition: all ease 0.2s;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    color: rgb(255, 255, 255);
+}

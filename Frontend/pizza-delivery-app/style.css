@@ -1,0 +1,159 @@
+.h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    color: #1195EE;
+    position: relative;
+}
+
+.h2 {
+    color: crimson;
+}
+
+body {
+    position: relative;
+    /* background-color: blue; */
+    margin: 0px;
+    /* width: 90vw; */
+    height: 100vh;
+    width: 100vw;
+}
+
+hr {
+    margin: 50px;
+    border: none;
+}
+
+.b1 {
+    position: absolute;
+    /* box-shadow: 5px 5px 5px inset white, -5px -5px 5px inset black; */
+    /* mix-blend-mode: difference; */
+    /* filter: invert(1); */
+    mix-blend-mode: difference;
+    top: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    height: 200px;
+    background-color: #1195EE;
+    /* transform: translate(300px, -700px); */
+    width: 200px;
+    width: 50%;
+    height: 50%;
+    transform-origin: center;
+    animation: infinite 2s b1a ease;
+}
+
+.b2 {
+    background-color: crimson;
+    animation-delay: 1s;
+}
+
+.one {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.two {
+    top: 0px;
+    font-size: 100px;
+    color: white;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: ease 1s all;
+    background-color: rgb(0, 88, 59);
+}
+
+.two:hover {
+    transition: ease 1s all;
+    width: 20%;
+}
+
+
+/* @keyframes b1a {
+    0% {
+        transform: translate(calc(), -100%);
+    }
+    50% {
+        transform: translate(500px, -700px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+} */
+
+@keyframes b1a {
+    0% {
+        width: 50%;
+        height: 50%;
+        top: 0%;
+        right: 0%;
+    }
+    16% {
+        width: 100%;
+        height: 50%;
+        top: 0%;
+        right: 0%;
+    }
+    33% {
+        height: 50%;
+        width: 50%;
+        top: 0%;
+        right: 50%;
+    }
+    49% {
+        width: 50%;
+        height: 100%;
+        top: 0%;
+        right: 50%;
+    }
+    66% {
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        right: 50%;
+    }
+    83% {
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        right: 0%;
+    }
+    100% {
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        right: 0%;
+    }
+}
+
+
+/* .b2 {
+    box-shadow: 5px 5px 5px inset white, -5px -5px 5px inset black;
+    mix-blend-mode: differ;
+    bottom: 0px;
+    height: 200px;
+    background-color: rgb(187, 255, 0);
+    width: 200px;
+    animation: infinite 10s b2a ease-in-out;
+}
+
+@keyframes b2a {
+    0% {
+        transform: translate(0px, -200px);
+    }
+    50% {
+        transform: translate(500px, -700px);
+    }
+    100% {
+        transform: translate(0px, -200px);
+    }
+} */
